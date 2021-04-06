@@ -24,7 +24,7 @@ public class BaseDO {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    @TableLogic
+    //@TableLogic
     /**
      * 加@TableLogic的情况：执行update user set deleted=1 where id =1 and deleted=0。
      * 不加@TableLogic的情况：执行delete from user where deleted=0。
@@ -34,6 +34,7 @@ public class BaseDO {
      * 来源：简书
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
+    @TableField(exist = false)
     protected Integer isDel;
 
     /**
