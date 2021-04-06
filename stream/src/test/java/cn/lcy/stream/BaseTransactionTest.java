@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
  * @date: 2021/4/6 11:16 上午
  */
 @Slf4j
-@Rollback(value = false)
+@Rollback(value = true)
 @SpringBootTest(classes = StreamApplication.class)
 public class BaseTransactionTest extends AbstractTransactionalTestNGSpringContextTests {
 
