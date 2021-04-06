@@ -1,4 +1,4 @@
-package cn.lcy.repository.bean;
+package cn.lcy.stream.repository.bean;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;

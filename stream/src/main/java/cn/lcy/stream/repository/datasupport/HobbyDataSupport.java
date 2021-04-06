@@ -1,7 +1,7 @@
-package cn.lcy.repository.datasupport;
+package cn.lcy.stream.repository.datasupport;
 
-import cn.lcy.repository.bean.HobbyDO;
-import cn.lcy.repository.mapper.HobbyDOMapper;
+import cn.lcy.stream.repository.bean.HobbyDO;
+import cn.lcy.stream.repository.mapper.HobbyDOMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Repository;
 

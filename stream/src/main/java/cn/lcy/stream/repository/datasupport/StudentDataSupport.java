@@ -1,7 +1,7 @@
-package cn.lcy.repository.datasupport;
+package cn.lcy.stream.repository.datasupport;
 
-import cn.lcy.repository.bean.StudentDO;
-import cn.lcy.repository.mapper.StudentDOMapper;
+import cn.lcy.stream.repository.bean.StudentDO;
+import cn.lcy.stream.repository.mapper.StudentDOMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Repository;
 

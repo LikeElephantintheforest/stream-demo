@@ -1,6 +1,6 @@
-package cn.lcy.repository.mapper;
+package cn.lcy.stream.repository.mapper;
 
-import cn.lcy.repository.bean.ClassDO;
+import cn.lcy.stream.repository.bean.ClassDO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,5 +9,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @email: lichenyang
  * @date: 2021/4/2 3:49 下午
  */
+//@Mapper
 public interface ClassDOMapper extends BaseMapper<ClassDO> {
 }
